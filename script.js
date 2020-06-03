@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var manager = new GameManager(4, KeyboardInputManager, HTMLActuator);
   });
 });
-
+//teste
 
 function GameManager(size, InputManager, Actuator) {
   this.size         = size; // Size of the grid
